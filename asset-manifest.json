@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/enterbook/static/css/main.be02eba9.chunk.css",
-    "main.js": "/enterbook/static/js/main.30a8d400.chunk.js",
-    "main.js.map": "/enterbook/static/js/main.30a8d400.chunk.js.map",
-    "runtime~main.js": "/enterbook/static/js/runtime~main.34dfe45a.js",
-    "runtime~main.js.map": "/enterbook/static/js/runtime~main.34dfe45a.js.map",
-    "static/css/2.452c1d03.chunk.css": "/enterbook/static/css/2.452c1d03.chunk.css",
-    "static/js/2.82426df8.chunk.js": "/enterbook/static/js/2.82426df8.chunk.js",
-    "static/js/2.82426df8.chunk.js.map": "/enterbook/static/js/2.82426df8.chunk.js.map",
-    "index.html": "/enterbook/index.html",
-    "precache-manifest.ab9910919ab5b3b808bb708b2b56813b.js": "/enterbook/precache-manifest.ab9910919ab5b3b808bb708b2b56813b.js",
-    "service-worker.js": "/enterbook/service-worker.js",
-    "static/css/2.452c1d03.chunk.css.map": "/enterbook/static/css/2.452c1d03.chunk.css.map",
-    "static/css/main.be02eba9.chunk.css.map": "/enterbook/static/css/main.be02eba9.chunk.css.map",
-    "static/media/primereact.min.css": "/enterbook/static/media/line.567f5738.gif",
-    "static/media/logo.svg": "/enterbook/static/media/logo.5d5d9eef.svg",
-    "static/media/theme.css": "/enterbook/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
-    "static/media/primeicons.css": "/enterbook/static/media/primeicons.b8eccb10.eot"
+    "main.css": "/enter_book/static/css/main.be02eba9.chunk.css",
+    "main.js": "/enter_book/static/js/main.5b31011b.chunk.js",
+    "main.js.map": "/enter_book/static/js/main.5b31011b.chunk.js.map",
+    "runtime~main.js": "/enter_book/static/js/runtime~main.38f8bfb3.js",
+    "runtime~main.js.map": "/enter_book/static/js/runtime~main.38f8bfb3.js.map",
+    "static/css/2.cde3ba0f.chunk.css": "/enter_book/static/css/2.cde3ba0f.chunk.css",
+    "static/js/2.82426df8.chunk.js": "/enter_book/static/js/2.82426df8.chunk.js",
+    "static/js/2.82426df8.chunk.js.map": "/enter_book/static/js/2.82426df8.chunk.js.map",
+    "index.html": "/enter_book/index.html",
+    "precache-manifest.c7731c0ee16ef28e2905a2c35fbecacd.js": "/enter_book/precache-manifest.c7731c0ee16ef28e2905a2c35fbecacd.js",
+    "service-worker.js": "/enter_book/service-worker.js",
+    "static/css/2.cde3ba0f.chunk.css.map": "/enter_book/static/css/2.cde3ba0f.chunk.css.map",
+    "static/css/main.be02eba9.chunk.css.map": "/enter_book/static/css/main.be02eba9.chunk.css.map",
+    "static/media/primereact.min.css": "/enter_book/static/media/line.567f5738.gif",
+    "static/media/logo.svg": "/enter_book/static/media/logo.5d5d9eef.svg",
+    "static/media/theme.css": "/enter_book/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/primeicons.css": "/enter_book/static/media/primeicons.b8eccb10.eot"
   }
 }
