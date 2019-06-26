@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/enterbook/static/css/main.be02eba9.chunk.css",
+    "main.js": "/enterbook/static/js/main.4eb34adb.chunk.js",
+    "main.js.map": "/enterbook/static/js/main.4eb34adb.chunk.js.map",
+    "runtime~main.js": "/enterbook/static/js/runtime~main.34dfe45a.js",
+    "runtime~main.js.map": "/enterbook/static/js/runtime~main.34dfe45a.js.map",
+    "static/css/2.452c1d03.chunk.css": "/enterbook/static/css/2.452c1d03.chunk.css",
+    "static/js/2.82426df8.chunk.js": "/enterbook/static/js/2.82426df8.chunk.js",
+    "static/js/2.82426df8.chunk.js.map": "/enterbook/static/js/2.82426df8.chunk.js.map",
+    "index.html": "/enterbook/index.html",
+    "precache-manifest.04718a54bbdc09f348d102685cdde0ee.js": "/enterbook/precache-manifest.04718a54bbdc09f348d102685cdde0ee.js",
+    "service-worker.js": "/enterbook/service-worker.js",
+    "static/css/2.452c1d03.chunk.css.map": "/enterbook/static/css/2.452c1d03.chunk.css.map",
+    "static/css/main.be02eba9.chunk.css.map": "/enterbook/static/css/main.be02eba9.chunk.css.map",
+    "static/media/primereact.min.css": "/enterbook/static/media/line.567f5738.gif",
+    "static/media/logo.svg": "/enterbook/static/media/logo.5d5d9eef.svg",
+    "static/media/theme.css": "/enterbook/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/primeicons.css": "/enterbook/static/media/primeicons.b8eccb10.eot"
+  }
+}
