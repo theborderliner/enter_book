@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/enter_book/static/css/main.e3562f5a.chunk.css",
+    "main.css": "/enter_book/static/css/main.91370587.chunk.css",
     "main.js": "/enter_book/static/js/main.6b29f7d5.chunk.js",
     "main.js.map": "/enter_book/static/js/main.6b29f7d5.chunk.js.map",
     "runtime~main.js": "/enter_book/static/js/runtime~main.38f8bfb3.js",
@@ -9,10 +9,10 @@
     "static/js/2.42123720.chunk.js": "/enter_book/static/js/2.42123720.chunk.js",
     "static/js/2.42123720.chunk.js.map": "/enter_book/static/js/2.42123720.chunk.js.map",
     "index.html": "/enter_book/index.html",
-    "precache-manifest.b1341b1d777b017fcb8ca77f6ae930c3.js": "/enter_book/precache-manifest.b1341b1d777b017fcb8ca77f6ae930c3.js",
+    "precache-manifest.73fded831c7ecfa29f2fbc123908ecbd.js": "/enter_book/precache-manifest.73fded831c7ecfa29f2fbc123908ecbd.js",
     "service-worker.js": "/enter_book/service-worker.js",
     "static/css/2.cde3ba0f.chunk.css.map": "/enter_book/static/css/2.cde3ba0f.chunk.css.map",
-    "static/css/main.e3562f5a.chunk.css.map": "/enter_book/static/css/main.e3562f5a.chunk.css.map",
+    "static/css/main.91370587.chunk.css.map": "/enter_book/static/css/main.91370587.chunk.css.map",
     "static/media/primereact.min.css": "/enter_book/static/media/line.567f5738.gif",
     "static/media/theme.css": "/enter_book/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
     "static/media/primeicons.css": "/enter_book/static/media/primeicons.b8eccb10.eot"
