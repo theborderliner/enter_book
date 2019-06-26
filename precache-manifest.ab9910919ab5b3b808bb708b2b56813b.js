@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a6e2f46009cd4d105e9fef7412c8ad8",
+    "revision": "3273d5d44384c047f8cf676231b5d432",
     "url": "/enterbook/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/enterbook/static/css/2.452c1d03.chunk.css"
   },
   {
-    "revision": "1d802b4468f3972bab56",
+    "revision": "af17829e9f401f425b5e",
     "url": "/enterbook/static/css/main.be02eba9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/enterbook/static/js/2.82426df8.chunk.js"
   },
   {
-    "revision": "1d802b4468f3972bab56",
-    "url": "/enterbook/static/js/main.4eb34adb.chunk.js"
+    "revision": "af17829e9f401f425b5e",
+    "url": "/enterbook/static/js/main.30a8d400.chunk.js"
   },
   {
     "revision": "ac74be6547a71f5942bf",
