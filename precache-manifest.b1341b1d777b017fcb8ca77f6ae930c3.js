@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f10a3f0b08fc3b5b4bcbbf833739d1b3",
+    "revision": "fb1fd29e817901f95ab366a6046cda1d",
     "url": "/enter_book/index.html"
   },
   {
-    "revision": "7167d06872c44b468ff1",
-    "url": "/enter_book/static/css/2.4f85a1c3.chunk.css"
+    "revision": "abc8e2d14e85d8bded75",
+    "url": "/enter_book/static/css/2.cde3ba0f.chunk.css"
   },
   {
-    "revision": "76b7040eb6b15172c3e5",
-    "url": "/enter_book/static/css/main.a414eb8d.chunk.css"
+    "revision": "a0508d0a737743cda24e",
+    "url": "/enter_book/static/css/main.e3562f5a.chunk.css"
   },
   {
-    "revision": "7167d06872c44b468ff1",
-    "url": "/enter_book/static/js/2.5daecec1.chunk.js"
+    "revision": "abc8e2d14e85d8bded75",
+    "url": "/enter_book/static/js/2.42123720.chunk.js"
   },
   {
-    "revision": "76b7040eb6b15172c3e5",
-    "url": "/enter_book/static/js/main.21ca9aaf.chunk.js"
+    "revision": "a0508d0a737743cda24e",
+    "url": "/enter_book/static/js/main.6b29f7d5.chunk.js"
   },
   {
     "revision": "8a4bcbd74e91a64cd271",
