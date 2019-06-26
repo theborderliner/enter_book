@@ -3,6 +3,7 @@ import "./styles/chooseView.css";
 
 import UniversityCard from "../custom_components/universityCard"
 import {AutoComplete} from 'primereact/autocomplete';
+import {Col, Container, Row} from "react-bootstrap";
 
 class ChooseView extends React.Component {
     constructor(props) {
@@ -33,69 +34,73 @@ class ChooseView extends React.Component {
 
     render() {
         return (
-            <div id="chooseView">
-                <p style={{fontSize: "36px", fontWeight: "bold"}}>
-                    ВУЗы России
-                </p>
-                <div className="chooseViewSearchContainer">
-                    <AutoComplete value={this.state.brand} onChange={(e) => this.setState({brand: e.value})}
-                                  suggestions={this.state.brandSuggestions}
-                                  completeMethod={this.suggestBrands.bind(this)}
-                                  placeholder="Найти ВУЗ"/>
+            <Container fluid={true}>
+                <div id="chooseView">
+                    <p style={{fontSize: "36px", fontWeight: "bold"}}>
+                        ВУЗы России
+                    </p>
+                    <Row className="chooseViewSearchContainer">
+                        <Col lg={12} xs={12} sm={12}>
+                            <AutoComplete value={this.state.brand} onChange={(e) => this.setState({brand: e.value})}
+                                          suggestions={this.state.brandSuggestions}
+                                          completeMethod={this.suggestBrands.bind(this)}
+                                          placeholder="Найти ВУЗ"/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col lg={3} xs={12} sm={6}>
+                            <UniversityCard
+                                title="НИУ ВШЭ"
+                                src="https://upload.wikimedia.org/wikipedia/ru/d/d6/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%9D%D0%98%D0%A3_%D0%92%D0%A8%D0%AD.jpg"
+                            />
+                        </Col>
+                        <Col lg={3} xs={12} sm={6}>
+                            <UniversityCard
+                                title="МГУ"
+                                src="https://www.msu.ru/upload/iblock/812/logo_msu.jpg"
+                            />
+                        </Col>
+                        <Col lg={3} xs={12} sm={6}>
+                            <UniversityCard
+                                title="МФТИ"
+                                src="https://pp.userapi.com/c629213/v629213551/3e675/QxnlS8icHYc.jpg?ava=1"
+                            />
+                        </Col>
+                        <Col lg={3} xs={12} sm={6}>
+                            <UniversityCard
+                                title="МИФИ"
+                                src="http://www.ssti.ru/images/f_style/logo_mephi2.jpg"
+                            />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <UniversityCard
+                                title="МГТУ"
+                                src="http://abali.ru/wp-content/uploads/2013/03/Gerb_MGTU_imeni_Baumana.png"
+                            />
+                        </Col>
+                        <Col>
+                            <UniversityCard
+                                title="СПбГУ"
+                                src="https://pr.spbu.ru/images/simvolika/logo/CoA_Medium_color.png"
+                            />
+                        </Col>
+                        <Col>
+                            <UniversityCard
+                                title="МГИМО"
+                                src="https://mgimo.ru/upload/mgimologo-big.jpg"
+                            />
+                        </Col>
+                        <Col>
+                            <UniversityCard
+                                title="РАНХиГС"
+                                src="https://academkin.ru/images/high_schools/logo/severodvinskiy_filial_rossiyskoy_akademii_narodnogo_khozyaystva_i_gosudarstvennoy_sluzhbi_pri_prezidente_rossiyskoy_federatsii_1621.png"
+                            />
+                        </Col>
+                    </Row>
                 </div>
-                <div className="p-grid">
-                    <div className="p-col">
-                        <UniversityCard
-                            title="НИУ ВШЭ"
-                            src="https://upload.wikimedia.org/wikipedia/ru/d/d6/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%9D%D0%98%D0%A3_%D0%92%D0%A8%D0%AD.jpg"
-                        />
-                    </div>
-                    <div className="p-col">
-                        <UniversityCard
-                            title="МГУ"
-                            src="https://www.msu.ru/upload/iblock/812/logo_msu.jpg"
-                        />
-                    </div>
-                    <div className="p-col-3">
-                        <UniversityCard
-                            title="МФТИ"
-                            src="https://pp.userapi.com/c629213/v629213551/3e675/QxnlS8icHYc.jpg?ava=1"
-                        />
-                    </div>
-                    <div className="p-col-3">
-                        <UniversityCard
-                            title="МИФИ"
-                            src="http://www.ssti.ru/images/f_style/logo_mephi2.jpg"
-                        />
-                    </div>
-                </div>
-                <div className="p-grid">
-                    <div className="p-col-3">
-                        <UniversityCard
-                            title="МГТУ"
-                            src="http://abali.ru/wp-content/uploads/2013/03/Gerb_MGTU_imeni_Baumana.png"
-                        />
-                    </div>
-                    <div className="p-col-3">
-                        <UniversityCard
-                            title="СПбГУ"
-                            src="https://pr.spbu.ru/images/simvolika/logo/CoA_Medium_color.png"
-                        />
-                    </div>
-                    <div className="p-col-3">
-                        <UniversityCard
-                            title="МГИМО"
-                            src="https://mgimo.ru/upload/mgimologo-big.jpg"
-                        />
-                    </div>
-                    <div className="p-col-3">
-                        <UniversityCard
-                            title="РАНХиГС"
-                            src="https://academkin.ru/images/high_schools/logo/severodvinskiy_filial_rossiyskoy_akademii_narodnogo_khozyaystva_i_gosudarstvennoy_sluzhbi_pri_prezidente_rossiyskoy_federatsii_1621.png"
-                        />
-                    </div>
-                </div>
-            </div>
+            </Container>
         )
     }
 }

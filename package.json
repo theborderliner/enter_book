@@ -2,14 +2,16 @@
   "title": "enter_book",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thebordeliner.github.io/enterbook",
+  "homepage": "https://theborderliner.github.io/enter_book/",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.1",
     "primeicons": "^1.0.0",
     "primereact": "^3.1.7",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "react-transition-group": "^4.1.1"

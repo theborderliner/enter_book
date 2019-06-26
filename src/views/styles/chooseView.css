@@ -3,28 +3,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
-#chooseView > div{
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
+#chooseView > .row > div{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     margin-bottom: 60px;
 }
 
-.chooseViewSearchContainer{
+.chooseViewSearchContainer, .chooseViewSearchContainer > *{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.chooseViewSearchContainer > span{
+.chooseViewSearchContainer > * > span{
     width: 50%;
 }
 
-.chooseViewSearchContainer > span > input{
+.chooseViewSearchContainer > * > span > input{
     width: 100%;
 }

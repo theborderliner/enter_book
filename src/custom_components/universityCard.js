@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./styles/universityCard.css";
 // import "../img/hse.jpg"
 
-import  {Card} from 'primereact/card';
+import {Card} from 'primereact/card';
 import {Sidebar} from 'primereact/sidebar';
 
 class UniversityCard extends React.Component {
@@ -34,7 +34,8 @@ class UniversityCard extends React.Component {
                         </a>
                     </div>
                     <div className="universityCardSidebarButton">
-                        <a style={{textDecoration: "none", decoration: "none"}}>
+                        <a style={{textDecoration: "none", decoration: "none"}}
+                           href={this.props.web}>
                             Сайт
                         </a>
                     </div>
@@ -46,7 +47,9 @@ class UniversityCard extends React.Component {
 
 UniversityCard.propTypes = {
     title: PropTypes.string.isRequired,
-    src: PropTypes.string.isRequired
+    src: PropTypes.string.isRequired,
+    web: PropTypes.string.isRequired,
+    goFunc: PropTypes.func.isRequired
 };
 
 export default UniversityCard;
