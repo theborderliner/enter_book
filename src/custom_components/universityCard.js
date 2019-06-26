@@ -13,6 +13,10 @@ class UniversityCard extends React.Component {
         this.state = {}
     }
 
+    onClick = () => {
+        this.props.goFunc(this.props.src, this.props.title);
+    };
+
     render() {
         return (
             <div className="universityCardMainContainer" onMouseEnter={this.over} onMouseLeave={this.out}>
@@ -28,7 +32,7 @@ class UniversityCard extends React.Component {
                 </div>
                 <div className="universityCardLogoDarker"></div>
                 <div className="universityCardSidebar">
-                    <div className="universityCardSidebarButton">
+                    <div className="universityCardSidebarButton" onClick={this.onClick}>
                         <a style={{textDecoration: "none", decoration: "none"}}>
                             Списки
                         </a>
@@ -48,8 +52,8 @@ class UniversityCard extends React.Component {
 UniversityCard.propTypes = {
     title: PropTypes.string.isRequired,
     src: PropTypes.string.isRequired,
-    web: PropTypes.string.isRequired,
-    goFunc: PropTypes.func.isRequired
+    goFunc: PropTypes.func.isRequired,
+    web: PropTypes.string
 };
 
 export default UniversityCard;

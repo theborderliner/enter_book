@@ -1,0 +1,29 @@
+#universityView{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 1140px;
+    padding-top: 15px;
+}
+
+
+.universityViewUniversityTitle{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.universityViewLogo{
+    width: 128px;
+    height: 128px;
+}
+
+.universityViewTitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.universityViewCenteredColumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
